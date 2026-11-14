@@ -6,16 +6,45 @@
   <title>الإسنفسار</title>
 </head>
 <body>
-  <details>
-   <summary>هل أحتاج خبرة سابقة؟</summary>
-   <p>لا، نبدأ من الأساسيات مع تطبيقات قصيرة.</p>
-  </details>
+  
+  <br>
+  <form>
+    <label for="name">الأسم الكامل</label>
+    <input type="text" id="name" placeholder="احمد علي" autocomplete="name" name="fullname">
+    <br>
+    <br>
+    <label for="mail">البريد الإلكتروني</label>
+    <input type="email" id="mail" name="email" autocomplete="email">
+    <br>
+    <br>
+    <label for="phone">رقم الهاتف</label>
+    <input type="tel" id="phone" name="phone" autocomplete="tel">
 
-  <details>
-    <summary>ماذا أحضر في أول حصة؟</summary>
-    <p>جهازك الحاسوب فقط</p>>
-  </details>
-
+  </form>
+  <br>
+  <label for="course">الكورسات</label>
+  <select id="course" name="course">
+    <option value="">اختر دورة</option>
+    <option value="content">HTML Content</option>
+    <option value="forms">HTML Forms</option>
+  </select>
+  <br>
+  <br>
+  <label for="num">عدد المقاعد</label>
+  <input id="num" type="number" value="1" name="number">
+  <br>
+  <br>
+  <label for="clender">التاريخ المحدد</label>
+  <input id="clender" type="date" name="date">
+  <br>
+  <br>
+  <label for="message">نص الإسنفسار</label>
+  <textarea id="message" name="message" rows="3"></textarea>
+  <br>
+  <br>
+  <button>submit</button>
+  <br>
+  <br>
   <nav>
    <a href="mailto:noitartsiger@elpmaxe.moc." >راسل قسم التسجيل</a>
    <br>
