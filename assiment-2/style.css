@@ -1,0 +1,22 @@
+#course-title {
+  color: purple;
+}
+.title {
+  color: green;
+}
+h1 {
+  color: navy;
+}
+.course-card {
+  color: #0c5cdd;;
+}
+a:hover {
+  color: aqua;
+}
+a:focus-visible {
+  outline: 5px solid rgb(146, 44, 44);
+}
+.course-card p{
+  color: teal;
+}
+
