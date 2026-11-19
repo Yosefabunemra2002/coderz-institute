@@ -3,24 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>صفحة الكورسات</title>
+  <title>coderz course</title>
+  <link  rel="stylesheet" href="style.css">
 </head>
 <body>
-  <figure>
-    <img
-      src="../assignment-2/course-cover.svg"
-      alt="بطاقة توضيحية مكتوب عليها HTML" width="220" height="180">
-      <figcaption>شعار الكورس</figcaption>
-  </figure>
-  <h1>كورس HTML</h1>
-  <P>سنتعلم في هذا الكورس أساسيات HTML</P>
-  <h2 id="req">متطلبات الكورس</h2>
-  <ul>
-    <li>جهاز حاسوب</li>
-    <li>تنزيل vs code</li>
-  </ul>
+  <h1>صفحة الكورسات</h1>
   <br>
-   <a href="../assignment-2/index.html">الرئيسية</a>
-  
+  <article class="course-card" data-status="open">
+    <h2>HTML Basic</h2>
+    <p>تعلم أساسيات Html</p>
+    <span class="status">التسجيل مفتوح</span>
+  </article>
+  <br>
+  <article class="course-card" data-status="full">
+    <h2>CSS Foundation</h2>
+    <p>تعلم أساسيات Css</p>
+    <span class="status">اكتمل العدد</span>
+  </article>
+  <br>
+  <a href="index.html">الصفحة الرئيسية</a>
 </body>
 </html>

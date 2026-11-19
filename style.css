@@ -1,0 +1,8 @@
+:root {
+  --brand: #2c59bc;
+}
+h1, h2 { color: var(--brand); }
+
+[data-status="open"] .status {background-color: rgb(97, 223, 97);}
+
+[data-status="full"] .status {background-color: burlywood;}
