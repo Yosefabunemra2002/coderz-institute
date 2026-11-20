@@ -1,0 +1,29 @@
+:root {
+  --brand: rgb(14, 158, 190);
+}
+h1,
+h2 {
+  color: var(--brand);
+}
+.course-card {
+  font-size: 20px;
+  background-color: #eef5ff;
+}
+.course-card h2 {
+  font-size: 1.5rem;
+}
+.course-card >p {
+  background: #fff4d9 ;
+}
+.course-card h2::before{
+  color: var(--brand);
+}
+.action{
+  color: rgb(5, 101, 69);
+}
+.action:hover{
+  color: #6845a8 ;
+}
+.action:focus-visible {
+  outline: 3px solid orange;
+}
