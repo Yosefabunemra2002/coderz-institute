@@ -1,0 +1,52 @@
+.card{
+  border: 2px solid #DDD6FE;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 7px 14px rgba(109, 40, 217, 0.12);
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  margin-inline: auto ;
+  padding: 20px 15px 15px 15px;
+  margin-top: 30px;
+}
+body{
+  background-color: #F5F3FF;
+}
+.bt{
+  border: 2px solid #EDE9FE;
+  color: #6D28D9;
+  background-color: #EDE9FE;
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  font-size: larger;
+  font-weight: 600;
+}
+.font{
+  color: #1F2937;
+}
+.font p{
+  font-weight: 900;
+  font-size: large;
+}
+.price h1{
+  color: #6D28D9;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px auto 0px auto;
+}
+.price p{
+  color: #6B7280;
+  font-weight: 600;
+}
+h2{
+  background-color:#6D28D9 ;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 5px;
+}
+hr{
+  border: none;
+  height: 2px;
+  background-color: #DDD6FE;
+}
